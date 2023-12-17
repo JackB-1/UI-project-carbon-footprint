@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>index page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+      <div class="container-fluid d-flex align-items-baseline">
+        <div class="ms-5 showoutline d-flex">
+          <a href="./index.html">
+            <img
+              src="./logo.png"
+              class="navbar-brand showoutline"
+              style="height: 60px"
+              alt=""
+            />
+          </a>
+          <span class="logofont orangecolor m-auto">CO2 </span
+          ><span class="logofont greencolor m-auto">Footprint</span>
+        </div>
+        <div class="d-grid">
+          <button
+            class="navbar-toggler mb-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse showoutline"
+            id="navbarTogglerDemo02"
+          >
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+              <li class="nav-item pe-5 py-1">
+                <a
+                  href="https://kestavakehitys.fi/en/-/private-consumption-carbon-footprint-of-consumption-in-finland-has-remained-too-high#:~:text=Finland's%20current%20situation,due%20to%20the%20coronavirus%20pandemic."
+                  target="_blank"
+                >
+                  <button
+                    class="mx-2 btn btn-lg btn-outline-primary rounded-0"
+                    type="submit"
+                  >
+                    Learn More
+                  </button>
+                </a>
+                <a href="#">
+                  <button
+                    class="mx-2 btn btn-lg btn-warning rounded-0"
+                    type="submit"
+                  >
+                    CALC NOW
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="vh-100 p-5 text-start"
+      style="background-color: #feead0; background-position: right top"
+    >
+      <div class="container-fluid">
+        <div class="showoutline col-12 my-5 pt-5">
+          <h1 class="showoutline mt-5 pt-0 fw-bolder text-center">
+            <span>Discover the Carbon Footprint of Your</span
+            ><span class="greencolor"> Dinner Table</span>
+          </h1>
+        </div>
+        <div class="mt-5 pt-2 pb-5 col-12">
+          <div class="dropdown showoutline d-flex">
+            <button
+              class="btn col-6 mx-auto btn-lg btn-outline-success dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Please slect a food
+            </button>
+            <ul class="dropdown-menu col-6">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-5 showoutline">
+          <div class="col-7">
+            <h1 class="logofont orangecolor ms-3">TOMATO</h1>
+            <h6 class="ms-3 fw-normal">Did you know?</h6>
+            <h6 class="ms-3 fw-light">
+              Finland imported 26,128,000kg tomato in 2028
+            </h6>
+            <div class="table-bgcolor rounded-4">
+              <div class="row p-3 showoutline">
+                <h3 class="col-9 showoutline fw-light">Country of Origin:</h3>
+                <h3 class="col-3 text-end fw-light">Finland</h3>
+              </div>
+
+              <div class="row p-3 showoutline">
+                <h3 class="col-9 showoutline fw-light">Calories per 100g:</h3>
+                <h3 class="col-3 text-end fw-light">52kal</h3>
+              </div>
+
+              <div class="row p-3 showoutline">
+                <h3 class="col-9 showoutline fw-light">
+                  Carbon Footprint(CO2/kg):
+                </h3>
+                <h3 class="col-3 text-end fw-light">8.2dg</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-4 bg-danger rounded-3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

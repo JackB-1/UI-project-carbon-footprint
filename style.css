@@ -1,0 +1,80 @@
+.bgcolor {
+  background: #feead0;
+}
+
+.imgshadow {
+  /* filter: drop-shadow(-23px 36px 30px #f95738); */
+  /* box-shadow: -23px 36px 72px 0px #f95738; */
+}
+
+.showoutline {
+  /* outline: solid 5px #e68506; */
+}
+
+.titlefont {
+  font-size: calc(3rem + 0.9vw);
+  font-weight: 900;
+}
+.greencolor {
+  color: #27532b;
+}
+
+.orangecolor {
+  color: #f95738;
+}
+
+.title2fonts {
+  font-size: calc(1rem + 0.9vw);
+  font-weight: 500;
+  line-height: 120%;
+  text-align: justify;
+}
+.logofont {
+  font-size: calc(1.5rem + 0.9vw);
+  font-weight: 900;
+  line-height: 100%;
+  text-align: justify;
+}
+
+.btn-warning {
+  background-color: #f95738;
+  border-color: #f95738;
+  border-width: 6px;
+}
+.btn-warning:hover {
+  background-color: #e04e32; /* 按钮背景颜色 */
+  border-color: #e04e32;
+}
+
+.text-success {
+  color: #27532b;
+}
+
+.btn-outline-primary {
+  border-color: #0281af;
+  border-width: 6px;
+  color: #0281af;
+}
+.btn-outline-primary:hover {
+  background-color: #0281af; /* 按钮背景颜色 */
+  border-color: #0281af;
+}
+
+.btn-outline-success {
+  border-color: #27532b;
+  border-width: 6px;
+  color: #27532b;
+}
+.btn-outline-success:hover {
+  background-color: #27532b; /* 按钮背景颜色 */
+  border-color: #27532b;
+}
+
+.btn-lg {
+  font-weight: 700;
+}
+
+.table-bgcolor {
+  /* border-radius: 27px; */
+  background: rgba(2, 129, 175, 0.25);
+}
