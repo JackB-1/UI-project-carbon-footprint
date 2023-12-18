@@ -87,12 +87,12 @@
     >
       <div class="container-fluid">
         <div class="showoutline col-12 my-5 pt-5">
-          <h1 class="showoutline mt-5 pt-0 fw-bolder text-center">
+          <h1 class="showoutline mt-4 pt-0 fw-bolder text-center">
             <span>Discover the Carbon Footprint of Your</span
             ><span class="greencolor"> Dinner Table</span>
           </h1>
         </div>
-        <div class="mt-5 pt-2 pb-5 col-12">
+        <div class="mt-3 pt-2 pb-5 col-12">
           <div class="dropdown showoutline d-flex">
             <button
               class="btn col-6 mx-auto btn-lg btn-outline-success dropdown-toggle"
@@ -102,20 +102,19 @@
             >
               Please select a food
             </button>
-            <ul class="dropdown-menu col-6" id="grocery-selector">
-            </ul>
+            <ul
+              class="dropdown-menu col-6"
+              style="z-index: 1000"
+              id="grocery-selector"
+            ></ul>
           </div>
         </div>
 
         <div class="row mt-5 showoutline h-1">
           <div class="col-7">
+            <h1 class="logofont orangecolor ms-3" id="grocery-name">TOMATO</h1>
             <!-- Your existing content -->
             <div class="table-bgcolor rounded-4">
-              <div class="row p-4 showoutline">
-                <h3 class="col-9 showoutline fw-light">Grocery Name:</h3>
-                <h3 class="col-3 text-end fw-light" id="grocery-name">Apple</h3>
-                <!-- New row for grocery name -->
-              </div>
               <div class="row p-4 showoutline">
                 <h3 class="col-9 showoutline fw-light">Country of Origin:</h3>
                 <h3 class="col-3 text-end fw-light" id="country-of-origin">
@@ -129,15 +128,15 @@
                 </h3>
               </div>
               <div class="row p-4 showoutline">
-                <h3 class="col-9 showoutline fw-light">
+                <h3 class="col-11 showoutline fw-light">
                   Carbon Footprint (kg of CO2/kg of produced food):
                 </h3>
-                <h3 class="col-3 text-end fw-light" id="co2-per-kg">0.2</h3>
+                <h3 class="col-1 text-end fw-light" id="co2-per-kg">0.2</h3>
               </div>
             </div>
           </div>
           <div class="col-1"></div>
-          <div class="col-4 bg-danger rounded-4" id="map"></div>
+          <div class="col-4 rounded-4" style="z-index: 2" id="map"></div>
         </div>
       </div>
     </div>
